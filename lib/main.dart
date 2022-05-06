@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'YoutubeScreen.dart';
+
 void main() {
   runApp(
     MaterialApp(
@@ -28,6 +30,7 @@ class _ScreenState extends State<Screen> {
             child: Column(
               children: [
                 Text('data'),
+                YoutubeScreen(title: 'test project',)
               ],
             ),
           ),
